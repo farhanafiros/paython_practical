@@ -1,8 +1,8 @@
 class BankAccont:
     def __init__(self,balance):
-        self.balance =balance 
+        self.__balance =balance 
 
 acc = BankAccont(1000)  
-print(acc.balance)
+print(acc.__balance)
 acc.balance = 500 
-print(acc.balance)
+print(acc.__balance)
