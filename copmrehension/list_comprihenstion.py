@@ -6,3 +6,11 @@ print(squares)
 
 squares_comp = [x**2 for x in range(1,6)]
 print(squares_comp)
+
+#evev numbers
+even_numbers = [x for x in range (1,6)if x % 2 ==0 ]
+print(even_numbers)
+
+
+letter = [ch.upper() for ch in "hello"]
+print(letter)
